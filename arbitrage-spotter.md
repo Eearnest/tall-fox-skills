@@ -1,6 +1,6 @@
 ---
 name: arbitrage-spotter
-version: 0.1.0
+version: 1.0.0
 description: Identify price differences across exchanges and chains to find arbitrage opportunities
 activation:
   keywords:
