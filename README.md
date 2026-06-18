@@ -1,4 +1,4 @@
-# tall-fox skill pack — 42 Skills
+# tall-fox skill pack — 41 Skills
 
 A complete skill pack for my IronClaw agent covering:
 - Research & Data (3 skills)
