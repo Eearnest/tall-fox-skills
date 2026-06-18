@@ -1,6 +1,6 @@
 ---
 name: alpha-hunter
-version: 0.1.0
+version: 1.0.0
 description: Spot early alpha signals from on-chain data, whale wallet moves, and smart money activity
 activation:
   keywords:
