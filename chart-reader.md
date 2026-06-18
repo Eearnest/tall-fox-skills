@@ -1,6 +1,6 @@
 ---
 name: chart-reader
-version: 0.1.0
+version: 1.0.0
 description: Interpret price charts, candlestick patterns, support/resistance levels, and chart structures
 activation:
   keywords:

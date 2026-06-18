@@ -1,6 +1,6 @@
 ---
 name: position-manager
-version: 0.1.0
+version: 1.0.0
 description: Manage Polymarket positions including entry sizing, hedging, scaling, and exit timing
 activation:
   keywords:

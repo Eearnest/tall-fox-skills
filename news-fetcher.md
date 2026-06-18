@@ -1,6 +1,6 @@
 ---
 name: news-fetcher
-version: 0.1.0
+version: 1.0.0
 description: Pull and summarize the latest news on any topic from reliable sources
 activation:
   keywords:

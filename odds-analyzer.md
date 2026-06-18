@@ -1,6 +1,6 @@
 ---
 name: odds-analyzer
-version: 0.1.0
+version: 1.0.0
 description: Identify mispriced Polymarket markets and find value bets through probability analysis
 activation:
   keywords:

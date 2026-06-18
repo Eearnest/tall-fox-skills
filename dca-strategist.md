@@ -1,6 +1,6 @@
 ---
 name: dca-strategist
-version: 0.1.0
+version: 1.0.0
 description: Build dollar cost averaging plans for long-term crypto accumulation with schedule and sizing optimization
 activation:
   keywords:

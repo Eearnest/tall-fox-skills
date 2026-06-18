@@ -1,6 +1,6 @@
 ---
 name: rug-detector
-version: 0.1.0
+version: 1.0.0
 description: Identify rug pull red flags including honeypots, unlocked liquidity, and suspicious dev wallets
 activation:
   keywords:

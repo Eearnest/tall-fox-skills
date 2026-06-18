@@ -1,6 +1,6 @@
 ---
 name: code-reviewer
-version: 0.1.0
+version: 1.0.0
 description: Review code for bugs, style issues, performance problems, and security vulnerabilities
 activation:
   keywords:

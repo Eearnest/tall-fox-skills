@@ -1,6 +1,6 @@
 ---
 name: event-tracker
-version: 0.1.0
+version: 1.0.0
 description: Monitor real-world events and breaking developments that move Polymarket prediction probabilities
 activation:
   keywords:

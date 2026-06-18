@@ -1,6 +1,6 @@
 ---
 name: trend-detector
-version: 0.1.0
+version: 1.0.0
 description: Identify bull/bear trends, breakouts, reversals, and market structure shifts across timeframes
 activation:
   keywords:

@@ -1,6 +1,6 @@
 ---
 name: liquidation-hunter
-version: 0.1.0
+version: 1.0.0
 description: Identify liquidation clusters and trade around them for high-probability entries and exits
 activation:
   keywords:

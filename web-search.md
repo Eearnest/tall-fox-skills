@@ -1,6 +1,6 @@
 ---
 name: web-search
-version: 0.1.0
+version: 1.0.0
 description: Search the web and return summarized, sourced answers to user queries
 activation:
   keywords:

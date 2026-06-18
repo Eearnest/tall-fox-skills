@@ -1,6 +1,6 @@
 ---
 name: funding-rate-watcher
-version: 0.1.0
+version: 1.0.0
 description: Track and interpret perpetual futures funding rates to time long/short entries and avoid funding drain
 activation:
   keywords:

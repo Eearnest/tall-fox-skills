@@ -1,6 +1,6 @@
 ---
 name: fact-checker
-version: 0.1.0
+version: 1.0.0
 description: Verify claims, identify misinformation, and assess source credibility
 activation:
   keywords:

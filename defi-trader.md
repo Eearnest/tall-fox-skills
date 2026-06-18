@@ -1,6 +1,6 @@
 ---
 name: defi-trader
-version: 0.1.0
+version: 1.0.0
 description: Execute token swaps on DEXs like Ref Finance and Uniswap with optimal routing, slippage, and gas settings
 activation:
   keywords:

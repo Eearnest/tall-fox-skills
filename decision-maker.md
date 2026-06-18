@@ -1,6 +1,6 @@
 ---
 name: decision-maker
-version: 0.1.0
+version: 1.0.0
 description: Help users weigh options, evaluate tradeoffs, and reach clear decisions using structured reasoning
 activation:
   keywords:

@@ -1,6 +1,6 @@
 ---
 name: order-builder
-version: 0.1.0
+version: 1.0.0
 description: Structure limit, market, stop, and advanced orders correctly across spot and derivatives markets
 activation:
   keywords:

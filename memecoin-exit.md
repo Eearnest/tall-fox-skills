@@ -1,6 +1,6 @@
 ---
 name: memecoin-exit
-version: 0.1.0
+version: 1.0.0
 description: Know when to take profit or cut losses on volatile memecoin positions
 activation:
   keywords:

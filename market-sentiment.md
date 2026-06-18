@@ -1,6 +1,6 @@
 ---
 name: market-sentiment
-version: 0.1.0
+version: 1.0.0
 description: Gauge crypto market sentiment using fear/greed index, social data, funding rates, and on-chain signals
 activation:
   keywords:

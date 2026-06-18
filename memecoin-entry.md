@@ -1,6 +1,6 @@
 ---
 name: memecoin-entry
-version: 0.1.0
+version: 1.0.0
 description: Time memecoin entries on pumps and dips using volume, chart structure, and momentum signals
 activation:
   keywords:

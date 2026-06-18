@@ -1,6 +1,6 @@
 ---
 name: crypto-tracker
-version: 0.1.0
+version: 1.0.0
 description: Fetch and interpret cryptocurrency prices, market data, and token analytics
 activation:
   keywords:

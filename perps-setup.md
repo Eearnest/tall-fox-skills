@@ -1,6 +1,6 @@
 ---
 name: perps-setup
-version: 0.1.0
+version: 1.0.0
 description: Set up perpetual futures trades including leverage, margin type, and liquidation price calculation
 activation:
   keywords:

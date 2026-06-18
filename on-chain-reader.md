@@ -1,6 +1,6 @@
 ---
 name: on-chain-reader
-version: 0.1.0
+version: 1.0.0
 description: Interpret NEAR blockchain data including transactions, accounts, smart contracts, and on-chain events
 activation:
   keywords:

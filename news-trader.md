@@ -1,6 +1,6 @@
 ---
 name: news-trader
-version: 0.1.0
+version: 1.0.0
 description: React to market-moving news events with speed, context, and directional trade ideas
 activation:
   keywords:

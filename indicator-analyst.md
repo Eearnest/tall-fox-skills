@@ -1,6 +1,6 @@
 ---
 name: indicator-analyst
-version: 0.1.0
+version: 1.0.0
 description: Read and interpret RSI, MACD, Bollinger Bands, moving averages, and other technical indicators
 activation:
   keywords:

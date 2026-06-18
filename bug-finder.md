@@ -1,6 +1,6 @@
 ---
 name: bug-finder
-version: 0.1.0
+version: 1.0.0
 description: Identify, diagnose, and fix bugs in code with root cause analysis
 activation:
   keywords:

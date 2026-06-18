@@ -1,6 +1,6 @@
 ---
 name: summarizer
-version: 0.1.0
+version: 1.0.0
 description: Condense long documents, articles, conversations, or content into clear, structured key points
 activation:
   keywords:

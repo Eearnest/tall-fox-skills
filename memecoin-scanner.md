@@ -1,6 +1,6 @@
 ---
 name: memecoin-scanner
-version: 0.1.0
+version: 1.0.0
 description: Spot early memecoin opportunities using volume spikes, social buzz, and on-chain signals
 activation:
   keywords:

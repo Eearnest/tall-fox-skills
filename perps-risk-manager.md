@@ -1,6 +1,6 @@
 ---
 name: perps-risk-manager
-version: 0.1.0
+version: 1.0.0
 description: Enforce disciplined risk management for perpetual futures including position sizing, max drawdown rules, and loss limits
 activation:
   keywords:

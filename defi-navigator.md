@@ -1,6 +1,6 @@
 ---
 name: defi-navigator
-version: 0.1.0
+version: 1.0.0
 description: Guide users through DeFi protocols, yield strategies, liquidity pools, and on-chain finance
 activation:
   keywords:

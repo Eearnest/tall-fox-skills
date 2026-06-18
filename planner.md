@@ -1,6 +1,6 @@
 ---
 name: planner
-version: 0.1.0
+version: 1.0.0
 description: Break down goals into actionable, sequenced plans with milestones and timelines
 activation:
   keywords:

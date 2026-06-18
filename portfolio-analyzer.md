@@ -1,6 +1,6 @@
 ---
 name: portfolio-analyzer
-version: 0.1.0
+version: 1.0.0
 description: Assess investment portfolios for allocation, risk, diversification, and performance
 activation:
   keywords:

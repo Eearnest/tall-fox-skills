@@ -1,6 +1,6 @@
 ---
 name: trade-planner
-version: 0.1.0
+version: 1.0.0
 description: Build complete trade plans with entry, exit, stop-loss, take-profit, and risk/reward analysis
 activation:
   keywords:

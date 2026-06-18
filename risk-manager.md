@@ -1,6 +1,6 @@
 ---
 name: risk-manager
-version: 0.1.0
+version: 1.0.0
 description: Apply professional risk management including position sizing, risk/reward ratios, and drawdown rules
 activation:
   keywords:

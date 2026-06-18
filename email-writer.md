@@ -1,6 +1,6 @@
 ---
 name: email-writer
-version: 0.1.0
+version: 1.0.0
 description: Draft professional, clear, and effective emails for any business or personal context
 activation:
   keywords:
