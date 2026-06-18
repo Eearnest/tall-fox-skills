@@ -1,6 +1,6 @@
 ---
 name: self-critique
-version: 0.1.0
+version: 1.0.0
 description: Evaluate the quality of every major trade recommendation before and after execution to build self-awareness and reduce errors
 activation:
   keywords:
