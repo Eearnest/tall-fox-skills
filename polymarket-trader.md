@@ -1,6 +1,6 @@
 ---
 name: polymarket-trader
-version: 0.1.0
+version: 1.0.0
 description: Scan Polymarket for mispriced prediction markets and automatically place orders when edge is found
 activation:
   keywords:
