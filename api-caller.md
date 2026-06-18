@@ -1,6 +1,6 @@
 ---
 name: api-caller
-version: 0.1.0
+version: 1.0.0
 description: Structure, format, and debug API requests and responses across REST, GraphQL, and RPC protocols
 activation:
   keywords:
