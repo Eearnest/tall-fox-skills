@@ -1,6 +1,6 @@
 ---
 name: image-handler
-version: 0.1.0
+version: 1.0.0
 description: Handle images passed as base64 blobs or URLs from Telegram or API and make them accessible to analysis tools
 activation:
   keywords:
