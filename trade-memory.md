@@ -1,6 +1,6 @@
 ---
 name: trade-memory
-version: 0.1.0
+version: 1.0.0
 description: Record trade decisions and outcomes, analyze performance, and surface patterns to improve agent accuracy over time
 activation:
   keywords:
