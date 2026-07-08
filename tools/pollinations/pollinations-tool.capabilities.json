@@ -1,0 +1,243 @@
+{
+  "name": "pollinations",
+  "version": "0.1.0",
+  "description": "Generate images from text prompts using Pollinations.ai — free, no API key required",
+  "author": "@Eearnest",
+  "license": "MIT OR Apache-2.0",
+  "auth": {
+    "type": "none",
+    "vault_key": null,
+    "note": "Pollinations.ai is a free open API requiring no authentication"
+  },
+  "allowed_endpoints": [
+    "https://image.pollinations.ai/prompt/*",
+    "https://image.pollinations.ai/models"
+  ],
+  "actions": [
+    {
+      "name": "generate_image",
+      "description": "Generate an image from a text prompt using Pollinations.ai — free and requires no API key",
+      "parameters": {
+        "type": "object",
+        "required": ["prompt"],
+        "properties": {
+          "prompt": {
+            "type": "string",
+            "description": "Text description of the image to generate",
+            "maxLength": 2000
+          },
+          "width": {
+            "type": "integer",
+            "description": "Image width in pixels",
+            "default": 1024,
+            "minimum": 64,
+            "maximum": 2048
+          },
+          "height": {
+            "type": "integer",
+            "description": "Image height in pixels",
+            "default": 1024,
+            "minimum": 64,
+            "maximum": 2048
+          },
+          "model": {
+            "type": "string",
+            "description": "Image generation model to use",
+            "enum": ["flux", "flux-realism", "flux-anime", "flux-3d", "turbo"],
+            "default": "flux"
+          },
+          "seed": {
+            "type": "integer",
+            "description": "Random seed for reproducible results (optional)",
+            "default": null
+          },
+          "nologo": {
+            "type": "boolean",
+            "description": "Remove Pollinations watermark",
+            "default": true
+          }
+        }
+      },
+      "returns": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "Direct URL to the generated image"
+          },
+          "prompt": {
+            "type": "string",
+            "description": "The prompt used for generation"
+          },
+          "width": {
+            "type": "integer"
+          },
+          "height": {
+            "type": "integer"
+          },
+          "model": {
+            "type": "string"
+          }
+        }
+      },
+      "cost": "Free",
+      "requires_confirmation": false
+    },
+    {
+      "name": "generate_flyer",
+      "description": "Generate an event flyer image optimized for portrait/poster format",
+      "parameters": {
+        "type": "object",
+        "required": ["event_name"],
+        "properties": {
+          "event_name": {
+            "type": "string",
+            "description": "Name of the event"
+          },
+          "date": {
+            "type": "string",
+            "description": "Event date"
+          },
+          "location": {
+            "type": "string",
+            "description": "Event location"
+          },
+          "theme": {
+            "type": "string",
+            "description": "Visual theme and color palette"
+          },
+          "additional_details": {
+            "type": "string",
+            "description": "Any extra details to include in the design"
+          },
+          "model": {
+            "type": "string",
+            "enum": ["flux", "flux-realism", "flux-3d", "turbo"],
+            "default": "flux"
+          }
+        }
+      },
+      "returns": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string" },
+          "prompt_used": { "type": "string" },
+          "width": { "type": "integer" },
+          "height": { "type": "integer" }
+        }
+      },
+      "cost": "Free",
+      "requires_confirmation": false
+    },
+    {
+      "name": "generate_social_post",
+      "description": "Generate a square social media image optimized for Instagram and Twitter",
+      "parameters": {
+        "type": "object",
+        "required": ["topic"],
+        "properties": {
+          "topic": {
+            "type": "string",
+            "description": "Topic or subject of the social post"
+          },
+          "style": {
+            "type": "string",
+            "description": "Visual style description"
+          },
+          "text_overlay": {
+            "type": "string",
+            "description": "Text to feature prominently in the design"
+          },
+          "model": {
+            "type": "string",
+            "enum": ["flux", "flux-realism", "flux-anime", "flux-3d", "turbo"],
+            "default": "flux"
+          }
+        }
+      },
+      "returns": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string" },
+          "prompt_used": { "type": "string" }
+        }
+      },
+      "cost": "Free",
+      "requires_confirmation": false
+    },
+    {
+      "name": "generate_logo_concept",
+      "description": "Generate logo concept images for review and iteration",
+      "parameters": {
+        "type": "object",
+        "required": ["brand_name"],
+        "properties": {
+          "brand_name": {
+            "type": "string",
+            "description": "Name of the brand or product"
+          },
+          "style": {
+            "type": "string",
+            "description": "Design style (e.g. minimalist, bold, tech, organic)"
+          },
+          "colors": {
+            "type": "string",
+            "description": "Color palette description"
+          },
+          "format": {
+            "type": "string",
+            "enum": ["square", "wide", "tall"],
+            "default": "square"
+          },
+          "model": {
+            "type": "string",
+            "enum": ["flux", "flux-3d", "turbo"],
+            "default": "flux"
+          }
+        }
+      },
+      "returns": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string" },
+          "prompt_used": { "type": "string" }
+        }
+      },
+      "cost": "Free",
+      "requires_confirmation": false
+    },
+    {
+      "name": "list_models",
+      "description": "List all available image generation models on Pollinations.ai",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      },
+      "returns": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "description": { "type": "string" }
+          }
+        }
+      },
+      "cost": "Free",
+      "requires_confirmation": false
+    }
+  ],
+  "limits": {
+    "max_width": 2048,
+    "max_height": 2048,
+    "default_size": "1024x1024",
+    "rate_limit": "No hard limit — use responsibly",
+    "dry_run_supported": true
+  },
+  "security": {
+    "credentials_in_vault_only": false,
+    "no_credentials_required": true,
+    "no_personal_data_in_prompts": true,
+    "no_local_storage": true
+  }
+}
