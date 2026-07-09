@@ -153,8 +153,8 @@ Skills submitted to the official [nearai/ironhub](https://github.com/nearai/iron
 | PR | Skills | Status |
 |----|--------|--------|
 | [#150](https://github.com/nearai/ironhub/pull/150) | 42 skills (original batch) | Closed — split per reviewer |
-| [PR A](#) | 14 read-only informational skills | Open — under review |
-| [PR B](#) | 11 planning-only trading skills | Open — under review |
+| [PR A](https://github.com/nearai/ironhub/pull/174) | 14 read-only informational skills | Open — under review |
+| [PR B](https://github.com/nearai/ironhub/pull/176) | 11 planning-only trading skills | Open — under review |
 | PR C | Execution skills | Waiting for IronClaw execution runtime |
 
 ---
